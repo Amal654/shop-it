@@ -27,7 +27,7 @@ const Home = () => {
         const cartTotal = productAQuantity * productAPrice + productBQuantity * productBPrice + productCQuantity * productCPrice;
 
         let discountAmount = 0;
-        let discountRule = '';
+        let discountRule = 'none';
 
         let discounts = {
             flat_10_discount: 0,
