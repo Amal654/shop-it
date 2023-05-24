@@ -55,6 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .image {
@@ -157,6 +158,10 @@ body {
 
 .green-text {
     color: rgb(0, 122, 6);
+}
+
+.red-text{
+    color: #ff0000;
 }
 
 

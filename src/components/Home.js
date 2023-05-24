@@ -27,7 +27,7 @@ const Home = () => {
         const cartTotal = productAQuantity * productAPrice + productBQuantity * productBPrice + productCQuantity * productCPrice;
 
         let discountAmount = 0;
-        let discountRule = '';
+        let discountRule = 'none';
 
         let discounts = {
             flat_10_discount: 0,
@@ -212,8 +212,8 @@ const Home = () => {
                                             {productCQuantity}<br />
                                             ${productCQuantity * 50}<br /><br/>
                                             ${cartTotal}<br />
-                                            <span className='green-text'>{discountRule}</span><br />
-                                            -${discountAmount}<br />
+                                            <span className='red-text'>{discountRule}</span><br />
+                                            <span className='green-text'>-${discountAmount}</span><br />
                                             ${giftWrapFee}<br />
                                             ${shippingFee}<br /><br />
                                             <span className='total'>${discountedTotal}</span>
