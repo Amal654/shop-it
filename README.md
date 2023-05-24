@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# SHOP IT
+
+![dark](src/images/Screenshot1.png)
+![dark](src/images/Screenshot2.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
